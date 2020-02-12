@@ -3,5 +3,5 @@
 ################################################################################
 
 /.vs/Blazor Blogger
-/bin
-/obj
+/Blazor Blogger/bin
+/Blazor Blogger/obj
