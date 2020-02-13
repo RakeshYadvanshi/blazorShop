@@ -1,0 +1,8 @@
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\bin\Debug\netstandard2.0\BlazorBlogger.Common.deps.json
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\bin\Debug\netstandard2.0\BlazorBlogger.Common.dll
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\bin\Debug\netstandard2.0\BlazorBlogger.Common.pdb
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\obj\Debug\netstandard2.0\BlazorBlogger.Common.csprojAssemblyReference.cache
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\obj\Debug\netstandard2.0\BlazorBlogger.Common.AssemblyInfoInputs.cache
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\obj\Debug\netstandard2.0\BlazorBlogger.Common.AssemblyInfo.cs
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\obj\Debug\netstandard2.0\BlazorBlogger.Common.dll
+D:\Work\Project\Local Projects\Blazor\Blogger\BlazorBlogger.Common\obj\Debug\netstandard2.0\BlazorBlogger.Common.pdb

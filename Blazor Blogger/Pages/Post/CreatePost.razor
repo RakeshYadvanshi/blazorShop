@@ -1,0 +1,48 @@
+﻿@page "/CreatePost"
+@using System.Threading;
+
+<h3>Create Post</h3>
+
+<div>
+    <div>Title</div>
+
+    <div><input type="text" name="Title" @bind="Title" /></div>
+
+    <div>Content</div>
+
+    <div><textarea @bind="Content"></textarea></div>
+
+    <div><input type="button" name="addPost" value="Add Post" @onclick="savePost" /></div>
+    <div><label>@Message</label></div>
+</div>
+
+@code {
+
+    private string Title { get; set; }
+    private string Content { get; set; }
+
+    private static string Message { get; set; }
+
+    private void savePost()
+    {
+        Message = "saved";
+        ResetMessage();
+    }
+
+    protected override void OnInitialized()
+    {
+
+        base.OnInitialized();
+    }
+
+    private void ResetMessage()
+    {
+        Timer timer = new Timer(new TimerCallback(_ =>
+       {
+           Message = string.Empty;
+           InvokeAsync(StateHasChanged);
+       }), null, 1000, 1000);
+
+    }
+
+}
